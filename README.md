@@ -36,10 +36,15 @@
    pip install -r requirements.txt
    ```
 
-4. **Run the bot**:
+4. **Open MelonDS & Boot compatible game of choice**:
+   ```cd MelonDS or wherever your melonDS path is.
+   ```
+
+5. **Run the bot**:
    ```bash
    python shinybot.py
    ```
+
 
 ---
 
