@@ -1,10 +1,86 @@
 # PokemonShinyBot
-A pokemon shiny hunting bot with a gui for ease of access for the user with various inputs and settings. (Only works on Heartgold and Soulsilver for now, but I am working on implementing functionality for the other pokemon games.)
-# Usage
-To use the program clone the repo or download the zip file and navigate to the folder once downloaded. Once in the folder open command prompt and install the requirements with the command: pip install -r requirements, then enter the command: python shinybot.py to run the script and open up the GUI.
-Currently the program is only set up to function on 1920x1080 displays, but its fairly easy to alter the settings within the GUI in order to support other resolutions.
-Confidence values for image recognition can also be adjusted in the settings within the GUI in the case that images are not being recognized.
-# Useful Info
-Currently the GUI only handles wild encounters, however, there are functions within the code for soft reset shiny hunting and shiny hunting for starters.
-Feel free to add functionality to the GUI to access these functions.
-Suggestions are also welcome!
+
+**PokemonShinyBot** is an automated shiny hunting tool for Pokémon games, currently built specifically for **HeartGold**, **SoulSilver**, and **Platinum**. It features a user-friendly GUI, various customizable settings, and image recognition logic to assist in the shiny hunting process.
+
+> ⚠️ Future support for additional Pokémon titles is in development.
+
+---
+
+## 🚀 Features
+
+- 🖱️ Easy-to-use GUI for configuring shiny hunts
+- 🎮 Works with emulators running at **1920x1080 resolution**
+- 🔍 Adjustable confidence thresholds for image recognition
+- 📜 Logs and feedback for encounters and detection
+- 🧪 Includes internal support for:
+  - **Wild encounters** (via GUI)
+  - **Soft reset hunts** (in codebase)
+  - **Starter hunts** (in codebase)
+
+---
+
+## 🛠️ Usage
+
+1. **Clone the repo or download the ZIP**:
+   ```bash
+   git clone https://github.com/jnotsknab/PokemonShinyBot.git
+   ```
+
+2. **Navigate to the project folder**:
+   ```bash
+   cd PokemonShinyBot
+   ```
+
+3. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Run the bot**:
+   ```bash
+   python shinybot.py
+   ```
+
+---
+
+## ⚙️ GUI & Settings
+
+- The bot is optimized for `1920x1080` displays.
+- You can customize resolution-specific behavior in the GUI settings.
+- Adjust **image recognition confidence values** in case images aren’t being detected properly.
+
+---
+
+## 💡 Useful Info
+
+- The GUI currently supports **wild encounters** only.
+- Functions for **soft resetting** and **starter hunting** exist in the codebase.
+  - Developers are welcome to expand GUI access to these.
+- Contributions and suggestions are always welcome!
+
+---
+
+## 🧪 Dependencies
+
+Ensure Python 3.7+ is installed.
+
+Main packages include:
+- `pyautogui`
+- `opencv-python`
+- `tkinter` (builtin)
+- `Pillow`
+- `keyboard`
+
+(See `requirements.txt` for full list.)
+
+---
+
+## 📬 Feedback
+
+If you have any issues, suggestions, or contributions, feel free to open an issue or pull request on the [GitHub repo](https://github.com/jnotsknab/PokemonShinyBot).
+
+---
+
+## 📜 License
+
+This project is for educational and entertainment purposes only and is not affiliated with Nintendo or Game Freak.
